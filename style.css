@@ -55,7 +55,14 @@ body {
     border: 0px;
     color: white;
     margin-top: 32px;
+
 }
+
+.btn-pink:hover {
+    cursor: pointer;
+    background-color: #272727;
+}
+
 
 
 /* main section styles */
@@ -139,6 +146,10 @@ body {
 
 }
 
+.flower-title:hover {
+    cursor: pointer;
+}
+
 /* icon container style */
 
 .icon-container {
@@ -159,5 +170,42 @@ body {
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
     font-weight: 600;
-    margin-top: 12px;
+    padding: 20px;
+
+}
+
+/* sale section style */
+
+.sale-container {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    padding: 100px 0;
+}
+
+.sale-title {
+    text-align: center;
+}
+
+.sale-title h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.sale-title h1>span{
+    color: #E55473;
+}
+
+.sale-title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+    padding: 24px 0 0 0px;
+    margin: 0 auto;
 }
