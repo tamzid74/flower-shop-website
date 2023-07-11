@@ -51,7 +51,7 @@ body {
 .btn-pink {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 18px 40px;
     border: 0px;
     color: white;
     margin-top: 32px;
@@ -195,9 +195,10 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    
+
 }
-.sale-title h1>span{
+
+.sale-title h1>span {
     color: #E55473;
 }
 
@@ -210,16 +211,20 @@ body {
     margin: 0 auto;
 }
 
-.insta-title{
+/* instagram section styles */
+
+.insta-title {
     text-align: center;
+    margin-top: 128px;
 }
 
-.insta-title h1{
+.insta-title h1 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 
 }
+
 .insta-title p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -229,9 +234,55 @@ body {
     margin: 0 auto;
 }
 
-.insta-photo{
+.insta-photo {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-top: 48px;
+}
+
+/* details contain styles */
+
+
+.details-contain {
+    width: 1440px;
+    height: 449px;
+    background-image: url("images/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 128px 240px;
+
+}
+
+.details-title {
+    text-align: center;
+    padding: 122px;
+
+}
+
+.details-title h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.details-title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.details-title input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+    border: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    margin-right: 16px;
+
 }
